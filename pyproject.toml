@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-redis-caching"
+version = "0.1.0"
+description = ""
+authors = ["Furkan Melih Ercan <furkan.ercan@b2metric.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_redis_caching"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aioredis = "^2.0.1"
+fastapi = "^0.103.0"
+pydantic = "^2.3.0"
+httpx = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
